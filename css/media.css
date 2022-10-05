@@ -1,0 +1,41 @@
+@media screen and (max-width: 300px) {
+  /* LANDING SECTION */
+
+  img {
+    width: 100%;
+    min-height: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .landing-image {
+    height: auto;
+    max-height: 700px;
+  }
+  .landing-title {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  .landing-sub-title {
+    font-size: 2rem;
+  }
+  .general-anchor {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  aside {
+    width: 80%;
+    padding: 10px;
+    margin-top: 0;
+  }
+  .aside-wrapper{
+    display: flex;
+    justify-content: space-around;
+  }
+  .aside-image{
+    width: 30%;
+  }
+}
